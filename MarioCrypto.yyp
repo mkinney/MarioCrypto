@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "119b362c-ad2b-4962-b6ea-362fc263603f",
+            "Value": {
+                "id": "e8a16088-e8b9-4d85-ae1f-558a878d37cc",
+                "resourcePath": "sprites\/spr_virtual_button\/spr_virtual_button.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "27b77f87-962d-4dd2-89c1-70edb1c829c0",
             "Value": {
                 "id": "31f45f67-135b-431c-b55e-bec3c0afd1f9",
@@ -44,6 +52,22 @@
                 "id": "16730686-7329-4bc3-bfbc-cd520695c313",
                 "resourcePath": "sprites\/spr_bitcoin\/spr_bitcoin.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2aa9e0a8-b8e0-42fc-9905-c6b96a780566",
+            "Value": {
+                "id": "61428722-e682-4b8e-a192-0c6ff82815f2",
+                "resourcePath": "objects\/obj_virtual_button\/obj_virtual_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3c1fb7ec-4ee1-4d17-9786-e2cc61635394",
+            "Value": {
+                "id": "3d593b57-b1b6-4318-9289-290ca283abb7",
+                "resourcePath": "objects\/obj_virtual_arrow\/obj_virtual_arrow.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -76,6 +100,14 @@
                 "id": "c8e9cbe6-d639-4ba6-b463-048677fc0a36",
                 "resourcePath": "views\/5671df3d-6a15-42d6-9f11-f449eac35cca.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "59c68036-fc4b-4f40-a145-c7f482e09ed1",
+            "Value": {
+                "id": "398edc74-552b-4d38-82b0-44047eb42fd0",
+                "resourcePath": "sprites\/spr_virtual_arrow\/spr_virtual_arrow.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -188,6 +220,14 @@
                 "id": "e2b933c1-b60b-4fd9-bb90-aea5243dd0ef",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ac4372cb-60d3-4c66-9af0-2d65355596cf",
+            "Value": {
+                "id": "b8f9c455-99b3-4127-aaba-fccb918e9556",
+                "resourcePath": "objects\/obj_virtual_arrows\/obj_virtual_arrows.yy",
+                "resourceType": "GMObject"
             }
         },
         {

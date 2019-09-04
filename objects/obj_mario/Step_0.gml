@@ -1,9 +1,37 @@
 var my_speed = default_speed;
 
-var left = keyboard_check(vk_left);
-var right = keyboard_check(vk_right);
+// virtual keys
+var virt_left = 0;
+var virt_right = 0;
+if (mouse_check_button(mb_left)) {
+	// check for virtual arrow
+	var va = instance_position(mouse_x, mouse_y, obj_virtual_arrow);
+	if (va != noone) {
+		switch (va.dir) {
+			case "left":
+				virt_left = 1;
+				break;
+			case "right":
+				virt_right = 1;
+				break;
+		}
+	}
+}
 
-var jump = keyboard_check_pressed(vk_space);
+// virtual button
+var virt_button = 0;
+if (device_mouse_check_button_pressed(0, mb_left)) {
+	// check for virtual button
+	var vb = instance_position(mouse_x, mouse_y, obj_virtual_button);
+	if (vb != noone) and (obj_virtual_arrows.show) {
+		virt_button = 1;
+	}
+}
+
+var left = keyboard_check(vk_left) or virt_left;
+var right = keyboard_check(vk_right) or virt_right;
+
+var jump = keyboard_check_pressed(vk_space) or virt_button;
 			
 var restart = keyboard_check(ord("R"));
 var pause = keyboard_check_pressed(ord("P"));
