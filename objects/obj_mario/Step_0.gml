@@ -51,22 +51,32 @@ if (paused) {
 }
 
 // mario (level 0)
-if (global.bitcoin + global.litecoin) > 1 { // cs
+if (global.bitcoin + global.litecoin) > 6 { // cs
 	level = 2;
+	global.level = 2;
 }
-if (global.bitcoin + global.litecoin) > 2 { // cz
+if (global.bitcoin + global.litecoin) > 12 { // cz
 	level = 4;
+	global.level = 3;
 }
-if (global.bitcoin + global.litecoin) > 3 { // pm
+if (global.bitcoin + global.litecoin) > 18 { // pm
 	level = 6;
+	global.level = 4;
 }
-if (global.bitcoin + global.litecoin) > 4 { // mk
+if (global.bitcoin + global.litecoin) > 24 { // mk
 	level = 8;
+	global.level = 5;
 }
-if (global.bitcoin + global.litecoin) > 5 { // sh
+if (global.bitcoin + global.litecoin) > 30 { // sh
 	level = 10;
+	global.level = 6;
 }
 
+if (last_global_level != global.level) {
+	// leveled up
+	audio_play_sound(snd_leveled_up, 20, 0);
+	last_global_level = global.level;
+}
 
 // only allow 2 directions - left/right
 if (left) {
@@ -85,6 +95,7 @@ if (left) {
 
 // if they pressed the jump button
 if jump {
+	audio_play_sound(snd_jump, 10, 0);
 	// if not already jumping
 	if not jumping and jump_index == 0 {
 		jumping = true;

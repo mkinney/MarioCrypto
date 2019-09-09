@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "1fc87e8f-e31f-4e1b-8f4b-7da24a8bab69",
+            "Value": {
+                "id": "da9a68bf-e6a9-4d44-be44-4c6bd1556e9f",
+                "resourcePath": "sounds\/snd_bitcoin\/snd_bitcoin.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "27b77f87-962d-4dd2-89c1-70edb1c829c0",
             "Value": {
                 "id": "31f45f67-135b-431c-b55e-bec3c0afd1f9",
@@ -92,6 +100,14 @@
                 "id": "f7eb5c76-1e6f-4b69-85ca-f0be347493b9",
                 "resourcePath": "sprites\/spr_litecoin\/spr_litecoin.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "47d899a3-5059-4395-86d0-35b26efa5a21",
+            "Value": {
+                "id": "747c619b-d962-4513-b8a7-1f18c3e40654",
+                "resourcePath": "sounds\/snd_leveled_up\/snd_leveled_up.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -159,6 +175,14 @@
             }
         },
         {
+            "Key": "71a83ab1-32f4-4497-b328-2ab966ebb189",
+            "Value": {
+                "id": "e1606a08-bed1-4c89-ae15-b4f06965b64c",
+                "resourcePath": "sounds\/snd_jump\/snd_jump.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "71ac33aa-c6ac-4606-9f41-9843c9c2a81b",
             "Value": {
                 "id": "1b0af6e0-7c46-4d97-b548-27fdda601e2d",
@@ -172,6 +196,14 @@
                 "id": "f626b639-5b83-41eb-8944-849e5b1f53c1",
                 "resourcePath": "options\/html5\/options_html5.yy",
                 "resourceType": "GMHtml5Options"
+            }
+        },
+        {
+            "Key": "78adb850-56ac-4701-8e0e-8b55181433c4",
+            "Value": {
+                "id": "b1fbe3e3-6954-4c37-a4f6-73cd3ac59600",
+                "resourcePath": "sounds\/snd_start\/snd_start.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -276,6 +308,14 @@
                 "id": "2c59706d-26b8-4674-a4b6-36cb75ad581c",
                 "resourcePath": "objects\/obj_game\/obj_game.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bd1f5e9b-afab-4159-a99c-698eb3820451",
+            "Value": {
+                "id": "ce1e1bc6-b8b9-4f06-ad57-a95a95741bc2",
+                "resourcePath": "sounds\/snd_litecoin\/snd_litecoin.yy",
+                "resourceType": "GMSound"
             }
         },
         {

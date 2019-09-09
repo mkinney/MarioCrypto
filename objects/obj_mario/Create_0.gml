@@ -8,3 +8,5 @@ jump_speed = 5;
 paused = false;
 
 level = 0;
+global.level = 1;
+last_global_level = global.level;
