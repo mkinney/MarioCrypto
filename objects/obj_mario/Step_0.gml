@@ -50,7 +50,10 @@ if (paused) {
 	exit;
 }
 
-// mario (level 0)
+if (global.bitcoin + global.litecoin) == 0 { // mario
+	level = 0;
+	global.level = 1;
+}
 if (global.bitcoin + global.litecoin) > 6 { // cs
 	level = 2;
 	global.level = 2;
@@ -74,7 +77,9 @@ if (global.bitcoin + global.litecoin) > 30 { // sh
 
 if (last_global_level != global.level) {
 	// leveled up
-	audio_play_sound(snd_leveled_up, 20, 0);
+	if (global.level > 1) {
+		audio_play_sound(snd_leveled_up, 20, 0);
+	}
 	last_global_level = global.level;
 }
 

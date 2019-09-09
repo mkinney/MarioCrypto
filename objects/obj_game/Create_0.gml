@@ -7,3 +7,6 @@ alarm[0] = 30;
 
 // bitcoin
 alarm[1] = 600;
+
+// xrp
+alarm[2] = 900;

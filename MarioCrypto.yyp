@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0fd80973-b4e4-4c2d-a65d-e63bc28895ba",
+            "Value": {
+                "id": "139d4c5d-8f6b-4212-8b9d-788a45a46815",
+                "resourcePath": "sprites\/spr_xrp\/spr_xrp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "119b362c-ad2b-4962-b6ea-362fc263603f",
             "Value": {
                 "id": "e8a16088-e8b9-4d85-ae1f-558a878d37cc",
@@ -231,6 +239,22 @@
             }
         },
         {
+            "Key": "869f6515-cfd9-4310-85dc-5c2f0837f8a6",
+            "Value": {
+                "id": "649308af-9916-44ad-9fb0-3268f8f47162",
+                "resourcePath": "objects\/obj_xrp\/obj_xrp.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "90fec5b9-ba42-486a-8043-c5ad2c585cc2",
+            "Value": {
+                "id": "9fdb2c4e-bbb0-41ea-83d2-e63edb51b983",
+                "resourcePath": "sounds\/snd_dies\/snd_dies.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "924ef3dd-6aa8-4bff-b890-5ddc6c7c192c",
             "Value": {
                 "id": "7f537cc6-a74b-44b7-a1b3-dca3d030867f",
@@ -308,6 +332,14 @@
                 "id": "2c59706d-26b8-4674-a4b6-36cb75ad581c",
                 "resourcePath": "objects\/obj_game\/obj_game.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bb890568-3aa0-4139-9c1f-6fd374ee1d78",
+            "Value": {
+                "id": "2ea741e9-0ec3-41cf-b822-b30278f5ecf4",
+                "resourcePath": "sounds\/snd_xrp\/snd_xrp.yy",
+                "resourceType": "GMSound"
             }
         },
         {
