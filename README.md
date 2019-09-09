@@ -9,3 +9,5 @@ Characters:
 * Max Keiser - https://www.rt.com/shows/keiser-report/
 * Stacie Herbert - the brains (and beauty) behind https://www.rt.com/shows/keiser-report/
 
+
+Note: Downloaded some sounds from https://themushroomkingdom.net/media/smb/wav
