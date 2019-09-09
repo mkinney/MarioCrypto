@@ -6,3 +6,5 @@ jump_height = 20;
 jump_speed = 5;
 
 paused = false;
+
+level = 0;

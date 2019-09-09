@@ -50,18 +50,36 @@ if (paused) {
 	exit;
 }
 
+// mario (level 0)
+if (global.bitcoin + global.litecoin) > 1 { // cs
+	level = 2;
+}
+if (global.bitcoin + global.litecoin) > 2 { // cz
+	level = 4;
+}
+if (global.bitcoin + global.litecoin) > 3 { // pm
+	level = 6;
+}
+if (global.bitcoin + global.litecoin) > 4 { // mk
+	level = 8;
+}
+if (global.bitcoin + global.litecoin) > 5 { // sh
+	level = 10;
+}
+
+
 // only allow 2 directions - left/right
 if (left) {
 	// stay inside room but don't go thru walls
 	if ((x - my_speed - (sprite_height / 2)) > 0) and (instance_place(x - my_speed, y, obj_wall) == noone) {
 		x = x - my_speed;
-		image_index = 1;
+		image_index = 1 + level;
 	}
 } else if (right) {
 	// stay inside room
 	if ((x + my_speed + (sprite_height / 2)) < room_width) and (instance_place(x + my_speed, y, obj_wall) == noone) {
 		x = x + my_speed;
-		image_index = 0;
+		image_index = 0 + level;
 	}
 }
 
